@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$phong" "1"
+	"$phongBoost" "6"
+	"$phongalbedoBoost" "150"
+//	"$phongExponent" "5"  
+//	"$phongTint" "[1 1.2 1.4]"
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$phongdisablehalflambert" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "1.0"
+	"$phongalbedotint" "1"
+
+	"GPU<2"
+	{
+		"$phong" "0"
+		"$envmap" ""
+		"$envmaptint" "[0 0 0]"
+	}
+}
